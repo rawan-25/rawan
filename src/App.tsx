@@ -246,8 +246,17 @@ const HomePage = ({ user, onLogout, onGoToCart, onGoToAdmin }: {
   };
 
   const handleAddToCart = (product: any) => {
-    // Redirect to Salla cart page
-    window.open('https://salla.sa/fd9421dd-52fd-49ee-9fb4-a7b88133beaa/WzzDlVz', '_blank');
+    // Redirect to appropriate Salla product page based on product ID
+    let sallaUrl = '';
+    if (product.id === '1') { // كوكيز
+      sallaUrl = 'https://salla.sa/fd9421dd-52fd-49ee-9fb4-a7b88133beaa/WzzDlVz';
+    } else if (product.id === '2') { // بسكويت تمر
+      sallaUrl = 'https://salla.sa/fd9421dd-52fd-49ee-9fb4-a7b88133beaa/WzzDlKg';
+    }
+    
+    if (sallaUrl) {
+      window.open(sallaUrl, '_blank');
+    }
   };
 
   // Store Closed View

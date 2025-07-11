@@ -31,14 +31,14 @@ const initialProducts: Product[] = [
     id: '1',
     name: 'كوكيز',
     price: 8.00,
-    image: 'https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.postimg.cc/KvFrhYY5/image.webp',
     description: 'كوكيز طازج ولذيذ مخبوز يومياً بأجود المكونات الطبيعية والطعم الرائع الذي يذوب في الفم'
   },
   {
     id: '2',
     name: 'بسكويت تمر',
     price: 7.50,
-    image: 'https://images.pexels.com/photos/4110256/pexels-photo-4110256.jpeg?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.postimg.cc/W1GnJJfC/2025-06-23-221857.png',
     description: 'بسكويت التمر اللذيذ محضر بتمر طبيعي عالي الجودة وطعم أصيل ومميز يجمع بين الحلاوة والفائدة'
   }
 ];

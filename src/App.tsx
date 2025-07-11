@@ -246,11 +246,8 @@ const HomePage = ({ user, onLogout, onGoToCart, onGoToAdmin }: {
   };
 
   const handleAddToCart = (product: any) => {
-    const quantity = quantities[product.id] || 1;
-    for (let i = 0; i < quantity; i++) {
-      addToCart(product);
-    }
-    setQuantities(prev => ({ ...prev, [product.id]: 1 }));
+    // Redirect to Salla cart page
+    window.open('https://salla.sa/fd9421dd-52fd-49ee-9fb4-a7b88133beaa/WzzDlVz', '_blank');
   };
 
   // Store Closed View
